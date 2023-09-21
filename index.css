@@ -2,6 +2,14 @@ body {
     width: min(1000px, 70%);
     margin: 0 auto;
 }
+@media only screen and (max-width: 1000px) {
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
 .title{
     display: block;
     width: 100%;
