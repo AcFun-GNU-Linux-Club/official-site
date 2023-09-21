@@ -1,0 +1,13 @@
+body {
+    width: min(1000px, 70%);
+    margin: 0 auto;
+}
+.title{
+    display: block;
+    width: 100%;
+}
+.index-sketch {
+}
+.bottom {
+    width: 100%;
+}
