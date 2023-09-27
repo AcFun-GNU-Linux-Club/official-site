@@ -29,7 +29,7 @@ $(() => {
         showPic({
             src: "index_assets/img/gnu_linux_3.jpg",
             author: "mowow",
-            subdesc: "Endeavour OS, KDE, Chrome"
+            subdesc: "Endeavour OS, KDE, Edge"
         });
     });
     $("area#pic4").click(() => {
