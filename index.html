@@ -5,11 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, maximum-scale=1.0">
     <title>AcFun GNU/Linux ⑨课</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index_assets/index.css">
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="index_assets/index.js"></script>
+    <script src="common_assets/js/imageMapResizer.min.js"></script>
 </head>
 <body>
     <!-- <img class="title" src="common_assets/img/ACGLC.png" alt="AcFun GNU/Linux ⑨课"> -->
-    <img class="index-sketch" src="index_sketch.svg" alt="">
+    <!-- <img class="index-sketch" src="index_assets/img/index_sketch.svg" alt=""> -->
+    <img class="index-sketch" src="index_assets/img/index_sketch.svg" alt="">
+    <img class="wide-pic screenshot-showcase" src="index_assets/img/use_gnu.png" alt="" srcset="" usemap="#use-gnu-map">
+    <map name="use-gnu-map">
+        <!-- #$-:Image map file created by GIMP Image Map plug-in -->
+        <!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+        <!-- #$VERSION:2.3 -->
+        <!-- #$AUTHOR:Administrator  -->
+        <area shape="poly" coords="0,0,494,0,321,817,0,817" target="pic1"  nohref="nohref" id="pic1" title="点击查看"/>
+        <area shape="poly" coords="366,815,848,818,1019,1,538,2" target="pic2"  nohref="nohref" id="pic2" title="点击查看"/>
+        <area shape="poly" coords="1068,1,891,816,1380,817,1549,1" target="pic3"  nohref="nohref" id="pic3" title="点击查看"/>
+        <area shape="poly" coords="1600,1,1428,818,1917,816,1917,1" target="pic4"  nohref="nohref" id="pic4" title="点击查看"/>
+    </map>
+        
+    <!-- <object id="sketch2" class="index-sketch" data="index_assets/img/index_sketch_2.svg" type="image/svg+xml" alt=""> -->
+    <div class="index-sketch" id="sketch2"></div>
+
     <img class="bottom" src="common_assets/img/bottom.png" alt="" srcset="">
+
+
+    <div class="show-screenshot-dialog">
+        <div class="show-screenshot-dialog-dialog">
+            <img src="index_assets/img/gnu_linux_1.jpg">
+            <p class="desc">
+                <span class="author">
+                    tsai
+                </span>
+                的计算机
+            </p>
+            <p class="subdesc">
+                Arch Linux, KDE
+            </p>
+        </div>
+    </div>
 </body>
 </html>
